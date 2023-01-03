@@ -1,0 +1,246 @@
+.heroes {
+    color: white;
+    height: 100vh;
+}
+
+.heroesWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.helloWorld {
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: 10px;
+    top: 150px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 3.3em;
+    background: transparent;
+    z-index: 22;
+}
+
+.mainText {
+    position: relative;
+
+    width: 400px;
+    height: 200px;
+}
+
+.mainText .wu {
+    position: absolute;
+    color: #cc2229;
+    font-size: 6.7em;
+    font-weight: 600;
+    background: transparent;
+    z-index: 2;
+
+}
+
+.with {
+    position: absolute;
+    font-size: 2.8em;
+    color: #000;
+    font-weight: 600;
+    background: transparent;
+    z-index: 2;
+    right: 45px;
+    bottom: 62px;
+}
+
+.mainText .developer {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    font-size: 4em;
+    left: 38px;
+    font-weight: 600;
+    background: transparent;
+
+}
+
+.mainText div {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box1 {
+    position: absolute;
+    top: 32px;
+    right: 0px;
+    height: 100px;
+    width: 150px;
+}
+
+.box2 {
+    position: absolute;
+    bottom: 16px;
+    right: 40px;
+    height: 100px;
+    width: 240px;
+}
+
+.heroesImg img {
+    border-radius: 30px;
+}
+
+.update {
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+    width: 95%;
+    height: 50px;
+    overflow: hidden;
+    }
+
+
+
+/* .bar{
+    background-color: white;
+    width: 750px;
+    position: absolute;
+    height: 25px;
+} */
+/* .barRed{
+    background-color:#cc2229;
+    width: 350px;
+    position: absolute;
+    height: 25px;
+    animation: bar linear both infinite;
+} */
+
+.updateText {
+    position: absolute;
+    z-index: 2;
+    background: transparent;
+    color: #000;
+    padding-left: 12px;
+}
+.bar {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.barRed {
+    background-color: #cc2229;
+    position: absolute;
+    height: 25px;
+    border-radius: 15px;
+    animation: onProcessing 6s ease-in-out forwards; 
+}
+
+
+@keyframes onProcessing {
+    0% {
+        width: 10%;
+        background-color:green;
+    }
+    100% {
+        width: 90%;
+       
+    }
+}
+
+
+
+@media screen and (min-width: 300px) {
+
+    .heroesWrap {
+        margin-top: 50px;
+    }
+    .heroesImg img {
+        width: 300px !important;
+        height: 190px !important;
+     }
+     .helloWorld {
+        font-size: 2.0em;
+    }
+}
+
+@media screen and (min-width: 476px) {
+
+    .heroesWrap {
+        margin-top: 50px;
+    }
+    .heroesImg img {
+       width: 350px !important;
+       height: 220px !important;
+    }
+    .helloWorld {
+        font-size: 2.0em;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .heroesWrap {
+        margin-top: 50px;
+    }
+    .heroesImg img {
+        width: 400px !important;
+        height: 250px !important;
+     }
+     .helloWorld {
+        font-size: 2.2em;
+    }
+}
+
+@media (min-width: 768) {
+
+    .heroesWrap {
+        margin-top: 130px;
+    }
+    .heroesImg img {
+        width: 500px !important;
+        height: 290px !important;
+     }
+     .helloWorld {
+        font-size: 3.3em;
+    }
+    
+}
+
+@media (min-width: 992px) {
+
+    .heroesWrap {
+        margin-top: 130px;
+    }
+    .heroesImg img {
+        width: 500px !important;
+        height: 290px !important;
+     }
+     .helloWorld {
+        font-size: 3.3em;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .heroesWrap {
+        margin-top: 130px;
+    }
+    .heroesImg img {
+        width: 500px !important;
+        height: 290px !important;
+     }
+     .helloWorld {
+        font-size: 3.3em;
+    }
+}
+
+@media (min-width: 1400) {
+
+    .heroesWrap {
+        margin-top: 130px;
+    }
+    .heroesImg img {
+        width: 500px !important;
+        height: 290px !important;
+     }
+     .helloWorld {
+        font-size: 3.3em;
+    }
+}

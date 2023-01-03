@@ -1,6 +1,6 @@
 function Work(props){
     return(
-      <div> This is work page</div>
+      <div className='container'> This is work page</div>
     )
   };
   

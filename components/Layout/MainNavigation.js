@@ -8,7 +8,7 @@ function MainNavigation() {
     const router = useRouter();
     console.log(router);
     return (
-        <header className={classes.header}>
+        <header className={`${classes.header}  ${classes.container}`}>
             <div className={classes.logo}>
                 <Link href ="/"><Image src={`/images/logo.png`} alt='logo' width={100} height={52} /></Link></div>
             <nav>

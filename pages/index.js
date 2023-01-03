@@ -1,6 +1,12 @@
+import Heroes from '../components/Layout/Heroes';
+
 function HomePage(props){
   return(
-    <div> homepage</div>
+    <>
+    <Heroes/>
+    <div className='container'> homepage</div>
+    </>
+    
   )
 };
 
