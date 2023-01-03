@@ -1,6 +1,6 @@
 import classes from './Heroes.module.css';
 import Image from 'next/image';
-import heroesImg from '../../public/images/heroes_background.JPG';
+
 function Heroes() {
     return (
         <div className={classes.heroes}>
@@ -15,7 +15,7 @@ function Heroes() {
                         <div className={classes.box2}></div>
                     </div>
                     <div className={classes.heroesImg}>
-                        <Image src={heroesImg} alt='heroImg' width={500} height={290}></Image>
+                        <Image src={`/images/heroes_background.JPG`} alt='heroImg' width={500} height={290}></Image>
                     </div>
                 </div>
                 <div className={classes.update}>
