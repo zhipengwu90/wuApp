@@ -35,8 +35,23 @@
     font-weight: 600;
     background: transparent;
     z-index: 2;
+    animation: changeColor 2s ease-out infinite;
 
 }
+
+
+@keyframes changeColor {
+    0% {
+        color: #cc2229;
+    }
+    50% {
+        color: green;
+    }
+    100% {
+        color: #cc2229;
+}
+}
+
 
 .with {
     position: absolute;
@@ -91,7 +106,7 @@
     width: 95%;
     height: 50px;
     overflow: hidden;
-    }
+}
 
 
 
@@ -116,6 +131,7 @@
     color: #000;
     padding-left: 12px;
 }
+
 .bar {
     background-color: white;
     width: 100%;
@@ -129,18 +145,19 @@
     position: absolute;
     height: 25px;
     border-radius: 15px;
-    animation: onProcessing 6s ease-in-out forwards; 
+    animation: onProcessing 10s ease-in-out forwards;
 }
 
 
 @keyframes onProcessing {
     0% {
         width: 10%;
-        background-color:green;
+        background-color: green;
     }
+
     100% {
         width: 90%;
-       
+
     }
 }
 
@@ -151,11 +168,13 @@
     .heroesWrap {
         margin-top: 50px;
     }
+
     .heroesImg img {
         width: 300px !important;
         height: 190px !important;
-     }
-     .helloWorld {
+    }
+
+    .helloWorld {
         font-size: 2.0em;
     }
 }
@@ -165,10 +184,12 @@
     .heroesWrap {
         margin-top: 50px;
     }
+
     .heroesImg img {
-       width: 350px !important;
-       height: 220px !important;
+        width: 350px !important;
+        height: 220px !important;
     }
+
     .helloWorld {
         font-size: 2.0em;
     }
@@ -179,11 +200,13 @@
     .heroesWrap {
         margin-top: 50px;
     }
+
     .heroesImg img {
         width: 400px !important;
         height: 250px !important;
-     }
-     .helloWorld {
+    }
+
+    .helloWorld {
         font-size: 2.2em;
     }
 }
@@ -193,14 +216,16 @@
     .heroesWrap {
         margin-top: 130px;
     }
+
     .heroesImg img {
         width: 500px !important;
         height: 290px !important;
-     }
-     .helloWorld {
+    }
+
+    .helloWorld {
         font-size: 3.3em;
     }
-    
+
 }
 
 @media (min-width: 992px) {
@@ -208,11 +233,13 @@
     .heroesWrap {
         margin-top: 130px;
     }
+
     .heroesImg img {
         width: 500px !important;
         height: 290px !important;
-     }
-     .helloWorld {
+    }
+
+    .helloWorld {
         font-size: 3.3em;
     }
 }
@@ -222,11 +249,13 @@
     .heroesWrap {
         margin-top: 130px;
     }
+
     .heroesImg img {
         width: 500px !important;
         height: 290px !important;
-     }
-     .helloWorld {
+    }
+
+    .helloWorld {
         font-size: 3.3em;
     }
 }
@@ -236,11 +265,13 @@
     .heroesWrap {
         margin-top: 130px;
     }
+
     .heroesImg img {
         width: 500px !important;
         height: 290px !important;
-     }
-     .helloWorld {
+    }
+
+    .helloWorld {
         font-size: 3.3em;
     }
 }
