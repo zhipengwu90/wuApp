@@ -1,6 +1,6 @@
 function Snippets(props){
     return(
-      <div className='container'> This is snippets page</div>
+      <div className='container containerVH'> This is snippets page</div>
     )
   };
   

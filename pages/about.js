@@ -1,6 +1,6 @@
 function About(props){
     return(
-      <div className='container'> This is About page</div>
+      <div className='container containerVH'> This is About page</div>
     )
   };
   

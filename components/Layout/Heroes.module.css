@@ -1,6 +1,11 @@
 .heroes {
     color: white;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+
 }
 
 .heroesWrap {
@@ -187,9 +192,6 @@
 
 @media screen and (min-width: 476px) {
 
-    .heroesWrap {
-        margin-top: 50px;
-    }
 
     .heroesImg img {
         width: 350px !important;
@@ -203,9 +205,7 @@
 
 @media screen and (min-width: 576px) {
 
-    .heroesWrap {
-        margin-top: 50px;
-    }
+
 
     .heroesImg img {
         width: 400px !important;
@@ -219,9 +219,7 @@
 
 @media (min-width: 768) {
 
-    .heroesWrap {
-        margin-top: 130px;
-    }
+
 
     .heroesImg img {
         width: 500px !important;
@@ -236,9 +234,7 @@
 
 @media (min-width: 992px) {
 
-    .heroesWrap {
-        margin-top: 130px;
-    }
+
 
     .heroesImg img {
         width: 500px !important;
@@ -252,9 +248,7 @@
 
 @media (min-width: 1200px) {
 
-    .heroesWrap {
-        margin-top: 130px;
-    }
+
 
     .heroesImg img {
         width: 500px !important;
@@ -268,9 +262,7 @@
 
 @media (min-width: 1400) {
 
-    .heroesWrap {
-        margin-top: 130px;
-    }
+   
 
     .heroesImg img {
         width: 500px !important;
