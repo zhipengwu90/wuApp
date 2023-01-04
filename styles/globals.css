@@ -5,7 +5,7 @@
   background-color: black;
   font-family: "Helvetica Neue", "Arial", sans-serif;
   color: white;
-  
+
 }
 
 html,
@@ -29,59 +29,63 @@ a {
 
 
 /* container */
-.container{
+.container {
   width: 100%;
-  margin-right:auto;
+  margin-right: auto;
   margin-left: auto;
 }
+
 @media screen and (min-width: 576px) {
-  .container{
+  .container {
     max-width: 540px;
   }
 
 }
+
 @media (min-width: 768) {
-  .container{
+  .container {
     max-width: 720px;
   }
 }
+
 @media (min-width: 992px) {
-  .container{
+  .container {
     max-width: 960px;
   }
 }
+
 @media (min-width: 1200px) {
-  .container{
+  .container {
     max-width: 1140px;
   }
 }
+
 @media (min-width: 1400) {
-  .container{
+  .container {
     max-width: 1320px;
   }
 }
-
 
 
 .fadeIn {
   animation: fadeIn 0.4s ease-out forwards;
 }
 
-
 @keyframes fadeIn {
-0% {
+  0% {
     opacity: 0;
     transform: translateY(-10%);
-}
-50% {
+  }
+
+  50% {
     opacity: 0.5;
     transform: translateY(-5%);
 
-}
-100% {
+  }
+
+  100% {
     opacity: 1;
     transform: translateY(0);
 
+  }
 }
-}
-

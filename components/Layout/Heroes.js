@@ -5,9 +5,7 @@ function Heroes() {
     return (
         <div className={classes.heroes}>
             <span className={classes.helloWorld}>Hello World.</span>
-
             <div className='container fadeIn'>
-   
                     <div className={classes.heroesWrap}>
                         <div className={classes.mainText}>
                             <span className={classes.wu}>WU.</span>
@@ -25,9 +23,7 @@ function Heroes() {
                         <div className={classes.bar}>
                             <div className={classes.barRed}> </div>
                         </div>
-
                     </div>
-         
             </div>
 
         </div>

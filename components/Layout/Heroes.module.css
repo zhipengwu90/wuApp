@@ -35,7 +35,7 @@
     font-weight: 600;
     background: transparent;
     z-index: 2;
-    animation: changeColor 2s ease-out infinite;
+    animation: changeColor 4s ease-out infinite;
 
 }
 
@@ -44,8 +44,14 @@
     0% {
         color: #cc2229;
     }
-    50% {
+    25% {
         color: green;
+    }
+    50% {
+        color: rgb(255, 255, 255);
+    }
+    75% {
+        color: rgb(0, 195, 255);
     }
     100% {
         color: #cc2229;
