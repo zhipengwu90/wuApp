@@ -16,11 +16,12 @@
 }
 
 .helloWorld {
+    display: none;
     writing-mode: vertical-lr;
     position: absolute;
     right: 10px;
     top: 150px;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.21);
     font-size: 3.3em;
     background: transparent;
     z-index: 22;
@@ -49,18 +50,22 @@
     0% {
         color: #cc2229;
     }
+
     25% {
         color: green;
     }
+
     50% {
         color: rgb(255, 255, 255);
     }
+
     75% {
         color: rgb(0, 195, 255);
     }
+
     100% {
         color: #cc2229;
-}
+    }
 }
 
 
@@ -179,14 +184,9 @@
     .heroesWrap {
         margin-top: 50px;
     }
-
     .heroesImg img {
         width: 300px !important;
         height: 190px !important;
-    }
-
-    .helloWorld {
-        font-size: 2.0em;
     }
 }
 
@@ -197,16 +197,12 @@
         width: 350px !important;
         height: 220px !important;
     }
-
-    .helloWorld {
-        font-size: 2.0em;
-    }
 }
 
 @media screen and (min-width: 576px) {
-
-
-
+    .helloWorld {
+        display: block;
+    }
     .heroesImg img {
         width: 400px !important;
         height: 250px !important;
@@ -218,14 +214,13 @@
 }
 
 @media (min-width: 768) {
-
-
-
+    .helloWorld {
+        display: block;
+    }
     .heroesImg img {
         width: 500px !important;
         height: 290px !important;
     }
-
     .helloWorld {
         font-size: 3.3em;
     }
@@ -233,42 +228,38 @@
 }
 
 @media (min-width: 992px) {
-
-
-
+    .helloWorld {
+        display: block;
+    }
     .heroesImg img {
         width: 500px !important;
         height: 290px !important;
     }
-
     .helloWorld {
         font-size: 3.3em;
     }
 }
-
 @media (min-width: 1200px) {
-
-
-
+    .helloWorld {
+        display: block;
+    }
     .heroesImg img {
         width: 500px !important;
         height: 290px !important;
     }
-
     .helloWorld {
         font-size: 3.3em;
     }
 }
 
 @media (min-width: 1400) {
-
-   
-
+    .helloWorld {
+        display: block;
+    }
     .heroesImg img {
         width: 500px !important;
         height: 290px !important;
     }
-
     .helloWorld {
         font-size: 3.3em;
     }
