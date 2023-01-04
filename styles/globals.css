@@ -41,28 +41,27 @@ a {
   .container {
     max-width: 540px;
   }
-
 }
 
-@media (min-width: 768) {
+@media screen and (min-width: 768) {
   .container {
     max-width: 720px;
   }
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 980px;
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
 }
 
-@media (min-width: 1400) {
+@media  screen and (min-width: 1400) {
   .container {
     max-width: 1320px;
   }
@@ -94,6 +93,5 @@ a {
   100% {
     opacity: 1;
     transform: translateY(0);
-
   }
 }

@@ -51,16 +51,16 @@ function MainNavigation() {
 
                 <ul>
                     <li>
-                        <Link href="/" onClick={toggleClose} className={router.asPath === '/' ? classes.active : ''}>HOME</Link>
+                        <Link href="/" onClick={toggleClose} className={router.asPath === '/' ? classes.active : null }>HOME</Link>
                     </li>
                     <li>
-                        <Link href="/work" onClick={toggleClose} className={router.asPath === '/work' ? classes.active : ''} >WORK</Link>
+                        <Link href="/work" onClick={toggleClose} className={router.asPath === '/work' ? classes.active : null} >WORK</Link>
                     </li>
                     <li>
-                        <Link href="/snippets" onClick={toggleClose} className={router.asPath === '/snippets' ? classes.active : ''} >SNIPPETS</Link>
+                        <Link href="/snippets" onClick={toggleClose} className={router.asPath === '/snippets' ? classes.active : null} >SNIPPETS</Link>
                     </li>
                     <li>
-                        <Link href="/about" onClick={toggleClose} className={router.asPath === '/about' ? classes.active : ''} >ABOUT</Link>
+                        <Link href="/about" onClick={toggleClose} className={router.asPath === '/about' ? classes.active :null} >ABOUT</Link>
                     </li>
                 </ul>
             </nav>

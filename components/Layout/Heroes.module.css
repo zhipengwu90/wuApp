@@ -29,22 +29,22 @@
 
 .mainText {
     position: relative;
-
     width: 400px;
     height: 200px;
 }
 
-.mainText .wu {
+.wu {
     position: absolute;
     color: #cc2229;
-    font-size: 6.7em;
+    font-size: 4em;
     font-weight: 600;
     background: transparent;
     z-index: 2;
     animation: changeColor 4s ease-out infinite;
+    left: 10%;
+    top: 22px;
 
 }
-
 
 @keyframes changeColor {
     0% {
@@ -68,27 +68,24 @@
     }
 }
 
-
 .with {
     position: absolute;
-    font-size: 2.8em;
+    font-size: 2.0em;
     color: #000;
     font-weight: 600;
     background: transparent;
     z-index: 2;
-    right: 45px;
-    bottom: 62px;
+    left: 185px;
+    top: 65px;
 }
 
-.mainText .developer {
-    display: block;
+.developer {
     position: absolute;
-    bottom: 0px;
-    font-size: 4em;
-    left: 38px;
+    bottom: 65px;
+    font-size: 2.0em;
+    left: 74px;
     font-weight: 600;
     background: transparent;
-
 }
 
 .mainText div {
@@ -98,26 +95,26 @@
 .box1 {
     position: absolute;
     top: 32px;
-    right: 0px;
-    height: 100px;
-    width: 150px;
+    left: 180px;
+    height: 70px;
+    width: 125px;
 }
 
 .box2 {
     position: absolute;
-    bottom: 16px;
-    right: 40px;
-    height: 100px;
-    width: 240px;
+    bottom: 70px;
+    left: 100px;
+    height: 60px;
+    width: 150px;
 }
 
 .heroesImg img {
     border-radius: 30px;
+
 }
 
 .update {
     margin: auto;
-    margin-top: 80px;
     position: relative;
     width: 95%;
     height: 50px;
@@ -146,20 +143,21 @@
     background: transparent;
     color: #000;
     padding-left: 12px;
+    font-size: 15px;
 }
 
 .bar {
     background-color: white;
     width: 100%;
     position: absolute;
-    height: 25px;
+    height: 18px;
     border-radius: 15px;
 }
 
 .barRed {
     background-color: #cc2229;
     position: absolute;
-    height: 25px;
+    height: 18px;
     border-radius: 15px;
     animation: onProcessing 10s ease-in-out forwards;
 }
@@ -173,21 +171,19 @@
 
     100% {
         width: 90%;
-
     }
 }
 
 
-
 @media screen and (min-width: 300px) {
 
-    .heroesWrap {
+    /* .heroesWrap {
         margin-top: 50px;
     }
     .heroesImg img {
         width: 300px !important;
         height: 190px !important;
-    }
+    } */
 }
 
 @media screen and (min-width: 476px) {
@@ -200,7 +196,7 @@
 }
 
 @media screen and (min-width: 576px) {
-    .helloWorld {
+    /* .helloWorld {
         display: block;
     }
     .heroesImg img {
@@ -210,11 +206,71 @@
 
     .helloWorld {
         font-size: 2.2em;
-    }
+    } */
 }
 
-@media (min-width: 768) {
+@media screen and (min-width: 768px) {
+    /* .helloWorld {
+        display: block;
+    }
+
     .helloWorld {
+        font-size: 3.3em;
+    } */
+
+    .heroesImg img {
+        width: 500px !important;
+        height: 290px !important;
+    }
+    .wu {
+        font-size: 6.7em;
+        font-weight: 600;
+        left: 0;
+        top: 0;
+    }
+    .with {
+        font-size: 2.8em;
+        font-weight: 600;
+        left: 280px;
+        top: 75px;
+    }
+    .developer {
+        bottom: 0px;
+        left: 38px;
+        font-size: 4em;
+        font-weight: 600;
+    }
+    .box1 {
+        top: 32px;
+        left: 270px;
+        height: 100px;
+        width: 150px;
+    }
+    
+    .box2 {
+        bottom: 16px;
+        left: 140px;
+        height: 100px;
+        width: 250px;
+    }
+
+    .bar {
+        height: 20px;
+    }
+    
+    .barRed {
+        height: 20px;
+
+    }
+    .update {
+
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    /* .helloWorld {
         display: block;
     }
     .heroesImg img {
@@ -223,12 +279,11 @@
     }
     .helloWorld {
         font-size: 3.3em;
-    }
+    } */
 
 }
-
-@media (min-width: 992px) {
-    .helloWorld {
+@media screen and (min-width: 1200px) {
+    /* .helloWorld {
         display: block;
     }
     .heroesImg img {
@@ -237,23 +292,11 @@
     }
     .helloWorld {
         font-size: 3.3em;
-    }
-}
-@media (min-width: 1200px) {
-    .helloWorld {
-        display: block;
-    }
-    .heroesImg img {
-        width: 500px !important;
-        height: 290px !important;
-    }
-    .helloWorld {
-        font-size: 3.3em;
-    }
+    } */
 }
 
-@media (min-width: 1400) {
-    .helloWorld {
+@media screen and (min-width: 1400) {
+    /* .helloWorld {
         display: block;
     }
     .heroesImg img {
@@ -262,5 +305,5 @@
     }
     .helloWorld {
         font-size: 3.3em;
-    }
+    } */
 }
