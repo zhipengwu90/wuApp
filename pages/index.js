@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Heroes from '../components/Layout/Heroes';
-import HomeContent from '../components/PageContent/HomeContent';
 import Arrow from '../components/UI/arrow/Arrow';
+import HomeSection1 from '../components/PageContent/HomeSection1';
 
 function HomePage(props) {
 
@@ -13,10 +13,10 @@ function HomePage(props) {
 
 
       <div id="sectionId1" className='container containerVH'>
-        content 1
+        <HomeSection1/>
       </div>
       <div id="sectionId2" className='container containerVH'>
-        content 2
+        
       </div>
     </>
 

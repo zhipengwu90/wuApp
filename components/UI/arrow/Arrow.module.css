@@ -1,8 +1,3 @@
-
-
-  
-
-  
   .arrow a {
     padding-top: 80px;
   }
@@ -10,7 +5,7 @@
     position: absolute;
     background: transparent;
     bottom: -25%;
-    left: 45%;
+    left: 47%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);

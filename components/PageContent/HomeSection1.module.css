@@ -1,0 +1,74 @@
+.wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+
+    .box1{
+        display: none;
+    }
+  }
+.box1 { 
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 300px;
+
+ }
+
+
+
+.box1 h4{
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 1em;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 3px solid rgb(172, 172, 172) ;
+}
+
+.box2 { 
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    width: 300px;
+ } 
+
+ .fullStack{
+    background: transparent;
+    text-align: center;
+ }
+ .fullStack img{
+    background: transparent;
+    max-width: 100%;
+    height: auto;  
+ }
+
+ .myWork a{
+    background: transparent;
+    color: black;
+ }
+ .myWork a:hover{
+    color: #cc2229;
+ }
+ .myWork{
+    border-top:3px solid rgb(172, 172, 172) ;
+    padding: 20px;
+    background-color: transparent;
+    text-align: right;
+ }
+
+ .aboutMe{
+    text-align: right;
+ }
+
+ .aboutMe a:hover{
+    color: #cc2229;
+ }
