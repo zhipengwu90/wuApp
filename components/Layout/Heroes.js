@@ -9,7 +9,7 @@ function Heroes() {
                     <div className={classes.heroesWrap}>
                         <div className={classes.mainText}>
                             <span className={classes.wu}>WU.</span>
-                            <span className={classes.with}>with</span>
+                            <span className={classes.with}></span>
                             <span className={classes.developer}>Developer</span>
                             <div className={classes.box1}></div>
                             <div className={classes.box2}></div>
