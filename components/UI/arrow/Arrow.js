@@ -4,7 +4,7 @@ function Arrow(props) {
 
         <section className={classes.arrow}>
 
-        <a href={`#sectionId${props.sectionId}`}><span></span><span></span><span></span>Scroll</a>
+        <div className={classes.arrowDiv}><span></span><span></span><span></span>Scroll</div>
     </section>
     )
 }

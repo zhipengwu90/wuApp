@@ -1,7 +1,6 @@
-  .arrow a {
+
+  .arrowDiv {
     padding-top: 80px;
-  }
-  .arrow a {
     position: absolute;
     background: transparent;
     bottom: -25%;
@@ -19,16 +18,13 @@
   }
 
   @media screen and (min-width: 768px) {
-    .arrow a {
+    .arrowDiv {
       bottom: -47%;
     }
   }
-  .arrow a:hover {
-    opacity: .5;
-    cursor: pointer;
-  }
+
   
-  .arrow a span {
+  .arrowDiv span {
     position: absolute;
     top: 0;
     left: 50%;

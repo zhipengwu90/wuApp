@@ -1,74 +1,104 @@
-.wrap{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    justify-content: space-around;
+.wrap {
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  width: 95%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  border-radius: 30px;
+  box-shadow: #787777 0px 0px 5px 0px;
+  background-image: linear-gradient(
+    to right top,
+    #0d0f0f,
+    #0d1719,
+    #0c1e23,
+    #0b242f,
+    #0f293c,
+    #112f43,
+    #12344b,
+    #133a52,
+    #0f4154,
+    #134854,
+    #1d4f53,
+    #2a5552
+  );
+  transition: box-shadow 0.9s ease-in-out;
+}
+
+.wrap:hover {
+  box-shadow: #b1b1b1 0px 0px 15px 0px;
 }
 
 @media screen and (max-width: 768px) {
-
-    .box1{
-        display: none;
-    }
+  .box1 {
+    display: none;
   }
-.box1 { 
-    background: rgb(255, 255, 255);
-    border-radius: 30px;
-    width: 300px;
-
- }
-
-
-
-.box1 h4{
-    background-color: transparent;
-    color: black;
-    font-weight: 500;
-    margin-top: 5px;
-    font-size: 1em;
-    padding: 20px 10px;
-    text-align: center;
-    border-bottom: 3px solid rgb(172, 172, 172) ;
+}
+.box1 {
+  width: 400px;
 }
 
-.box2 { 
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 13px;
-    width: 300px;
- } 
+.box1 h5 {
+  color: #646363;
+  padding: 10px 0px;
+  text-align: center;
+  font-style: italic;
+}
 
- .fullStack{
-    background: transparent;
-    text-align: center;
- }
- .fullStack img{
-    background: transparent;
-    max-width: 100%;
-    height: auto;  
- }
+.box2 {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  width: 500px;
+  padding-bottom: 10px;
+}
 
- .myWork a{
-    background: transparent;
-    color: black;
- }
- .myWork a:hover{
-    color: #cc2229;
- }
- .myWork{
-    border-top:3px solid rgb(172, 172, 172) ;
-    padding: 20px;
-    background-color: transparent;
-    text-align: right;
- }
+.fullStack {
+  text-align: center;
+}
+.fullStack img {
+  max-width: 100%;
+  height: auto;
+}
 
- .aboutMe{
-    text-align: right;
- }
+.myWork a {
+  background: transparent;
+  color: black;
+}
+.myWork a:hover {
+  color: #cc2229;
+}
+.myWork {
+  border-top: 3px solid rgb(172, 172, 172);
+  padding: 20px;
+  background-color: transparent;
+  text-align: right;
+}
 
- .aboutMe a:hover{
-    color: #cc2229;
- }
+.aboutMe {
+  text-align: right;
+}
+
+
+.aboutMe a {
+  border: 1px solid #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.aboutMe a:hover {
+  color: #cc2229;
+  cursor: pointer;
+  border: 1px solid #cc2229;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}

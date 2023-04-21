@@ -15,7 +15,7 @@ function Heroes() {
                             <div className={classes.box2}></div>
                         </div>
                         <div className={classes.heroesImg}>
-                            <Image src={`/images/heroes_background.JPG`} alt='heroImg' width={300} height={190}></Image>
+                            <Image src={`/images/heroes_background.png`} alt='heroImg' width={900} height={900}></Image>
                         </div>
                     </div>
                     <div className={classes.update}>

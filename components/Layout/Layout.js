@@ -8,7 +8,7 @@ function Layout(props) {
     <>
       <MainNavigation />
   
-      <div className={classes.main}>{props.children}</div>
+      <div>{props.children}</div>
     </>
   );
 }

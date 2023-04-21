@@ -1,111 +1,107 @@
 .header {
-  
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2%;
-    z-index: 100;
-    position: fixed;
-    background-color: black;
-    width: 100%;
-    top: 0;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+  z-index: 1;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  top: 0;
+}
+.navStyle ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+.header li {
+  margin-left: 3rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #cc2229;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger {
+  display: none;
+  border: 0;
+  position: absolute;
+  cursor: pointer;
+  right: 25px;
+  background-color: black;
+}
+
+.hamburgerSVG {
+  background-color: #ffffff;
+}
+.hamburgerSVG:active {
+  background-color: #cc2229;
+}
+
+.closeSVG {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
   }
   .navStyle ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: baseline;
-  }
-  .header li {
-    margin-left: 3rem;
-  }
-  
-  .header a {
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: #ffffff;
-  }
-  
-  .header a:hover,
-  .header a:active,
-  .header a.active {
-    color: #cc2229;
-  }
-
-  .hamburger {
     display: none;
-    border: 0;
-    position: absolute;
-    cursor: pointer;
-    right: 25px;
   }
-
-  .hamburgerSVG{
-    background-color: #ffffff;
+  .navStyle li {
+    background: transparent;
+    margin: 0;
+    margin-top: 35px;
   }
-  .hamburgerSVG:active{
-    background-color: #cc2229;
-  }
-
-  .closeSVG{
-    width: 40px;
-    height: 40px;
-    fill: #ffffff;
-  }
-
-  @media screen and (max-width: 768px) {
-    .hamburger {
-      display: block;
-    }
-    .navStyle ul {
-      display: none;
-    }
-    .navStyle li {
-      background: transparent;
-      margin: 0;
-      margin-top: 35px;
-    }
-    .navStyle a {
-      display:block;
-      background: transparent;
-      width: auto;
-      font-size: 1.6em;
-    }
-  }
-
-  .navStyleToggle ul{
+  .navStyle a {
     display: block;
-    position: absolute;
-    text-align: center;
-    top: 60px;
-    right: 0;
-    z-index: 99;
-    /* // makes menu span full height and width */
-    width: 100vw;
-    height: 100vh;
-    background-color: #000000db;
-    animation: navFadeIn 0.5s ease-out forwards;
-  } 
+    background: transparent;
+    width: auto;
+    font-size: 1.6em;
+  }
+}
 
-  @keyframes navFadeIn {
-    0% {
-        opacity: 0;
-  
-    }
-    100% {
-        opacity: 1;
-    }
-    }
-  
+.navStyleToggle ul {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  right: 0;
+  z-index: 99;
+  /* // makes menu span full height and width */
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000db;
+  animation: navFadeIn 0.5s ease-out forwards;
+}
 
-
+@keyframes navFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .navStyleToggle a {
   animation: listFadeIn 0.6s ease-out forwards;
 }
-
 
 @keyframes listFadeIn {
   0% {
@@ -114,7 +110,6 @@
   }
 
   50% {
-
     transform: translateY(-15%);
     opacity: 0.9;
   }
@@ -122,10 +117,5 @@
   100% {
     opacity: 1;
     transform: translateY(0);
-
   }
 }
-
-  
-
-    
