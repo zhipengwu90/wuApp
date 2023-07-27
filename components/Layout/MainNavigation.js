@@ -15,7 +15,7 @@ function MainNavigation() {
 
   const toggleHandler = () => {
     setIsToggle(!isToggle);
-  };
+  }; 
 
   const toggleClose = () => {
     setIsToggle(false);

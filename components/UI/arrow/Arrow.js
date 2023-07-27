@@ -4,7 +4,7 @@ function Arrow(props) {
 
         <section className={classes.arrow}>
 
-        <div className={classes.arrowDiv}><span></span><span></span><span></span>Scroll</div>
+        <div className={classes.arrowDiv}><span></span><span></span><span></span> </div>
     </section>
     )
 }

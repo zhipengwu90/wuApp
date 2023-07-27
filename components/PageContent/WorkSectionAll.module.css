@@ -1,0 +1,12 @@
+.workWrap {
+ 
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 30px;
+}
+
+.box{
+  padding-top: 150px;
+  height: 90vh;
+}
