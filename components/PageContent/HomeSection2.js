@@ -20,7 +20,7 @@ const HomeSection2 = () => {
         </div>
       </div>
       <div className={classes.workWrap}>
-        {WorkData.map((work) => (
+        {WorkData.slice(0, 3).map((work) => (
           <SingleWork myLink={work} key={work.id} />
         ))}
         {/* <SingleWork myLink={hands_on} />
@@ -28,7 +28,7 @@ const HomeSection2 = () => {
         <SingleWork myLink={VFriend} /> */}
       </div>
       <div className={classes.moreButton}>
-        <Link href="/work" className={classes.btn}>
+        <Link href="/works" className={classes.btn}>
           View More
         </Link>
       </div>
