@@ -64,14 +64,14 @@ function MainNavigation() {
           </li>
           <li>
             <Link
-              href="/work"
+              href="/works"
               onClick={toggleClose}
-              className={router.asPath === "/work" ? classes.active : null}
+              className={router.asPath === "/works" ? classes.active : null}
             >
-              WORK
+              WORKS
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/snippets"
               onClick={toggleClose}
@@ -79,7 +79,7 @@ function MainNavigation() {
             >
               SNIPPETS
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               href="/about"

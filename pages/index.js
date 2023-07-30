@@ -15,7 +15,6 @@ function HomePage(props) {
       <div className="container">
         <HomeSection2 />
       </div>
-         
     </>
   );
 }

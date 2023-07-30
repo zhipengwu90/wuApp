@@ -1,22 +1,16 @@
 import React from "react";
 import SingleWork from "../UI/singleWork/SingleWork";
 import classes from "./WorkSectionAll.module.css";
+import WorkData from "../Data/WorkData.json";
+console.log(WorkData);
 
 const WorkSectionAll = () => {
-  const myLink = {
-    github: 'https://github.com/zhipengwu90/Hands_On_app',
-    demo: "",
-  };
-
   return (
-    <div className={classes.box}>
+    <div>
       <div className={classes.workWrap}>
-        <SingleWork
-          myLink={myLink}
-        />
-
-        {/* <SingleWork />
-        <SingleWork /> */}
+        {WorkData.map((work) => (
+          <SingleWork myLink={work} key={work.id} />
+        ))}
       </div>
     </div>
   );

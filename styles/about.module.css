@@ -1,0 +1,11 @@
+.box {
+  color: #ffffff;
+  font-size: 1.2em;
+  padding-top: 150px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}

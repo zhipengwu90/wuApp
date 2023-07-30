@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "github": "https://github.com/zhipengwu90/Hands_On_app",
+    "demo": "",
+    "filter": ["react", "react native"],
+    "img": "/images/works/hands_on.png"
+  },
+  {
+    "id": 2,
+    "github": "https://github.com/zhipengwu90/Chatbot",
+    "demo": "https://www.wuapp.app/",
+    "filter": ["react", "react native", "nextjs"],
+    "img": "/images/works/chatbot.png"
+  },
+  {
+    "id": 3,
+    "github": "https://github.com/zhipengwu90/VFriend",
+    "demo": "",
+    "filter": ["react", "react native"],
+    "img": "/images/works/VFriend.png"
+  },
+  {
+    "id": 4,
+    "github": "https://github.com/zhipengwu90/FeverScanner",
+    "demo": "",
+    "filter": ["python"],
+    "img": "/images/works/feverScanner.png"
+  }
+]
