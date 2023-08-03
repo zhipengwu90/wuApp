@@ -4,7 +4,20 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 2%;
-  z-index: 1;
+  z-index: 99;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  top: 0;
+}
+
+.headerShrink {
+  height: 3.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+  z-index: 99;
   position: fixed;
   background-color: rgb(0, 0, 0);
   width: 100%;
@@ -17,19 +30,19 @@
   display: flex;
   align-items: baseline;
 }
-.header li {
+.headerBox li {
   margin-left: 3rem;
 }
 
-.header a {
+.headerBox a {
   text-decoration: none;
   font-size: 1.1rem;
   color: #ffffff;
 }
 
-.header a:hover,
-.header a:active,
-.header a.active {
+.headerBox a:hover,
+.headerBox a:active,
+.headerBox a.active {
   color: #cc2229;
   transition: all 0.3s ease-in-out;
 }

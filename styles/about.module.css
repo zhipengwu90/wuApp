@@ -1,6 +1,6 @@
 .box {
   color: #ffffff;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 150px;
   padding-left: 12px;
   padding-right: 12px;

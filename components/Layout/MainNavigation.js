@@ -3,15 +3,41 @@ import logo from "../../public/images/logo.png";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import classes from "./MainNavigation.module.css";
-import { useState } from "react";
 import { CSSTransition } from "react-transition-group";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 function MainNavigation() {
   const nodeRef = useRef(null);
-
+  const [headerClass, setHeaderClass] = useState(classes.header);
   const [isToggle, setIsToggle] = useState(false);
   const router = useRouter();
+
+
+  useEffect(() => {
+    // Add a scroll event listener to the window
+    const handleScroll = () => {
+      // Determine the scroll position
+      const scrollPosition = window.scrollY;
+
+      // Define the height at which the header should shrink
+      const shrinkPosition = 0; // Adjust this value based on your requirements
+
+      // Update the header class based on the scroll position
+      if (scrollPosition > shrinkPosition) {
+        setHeaderClass(classes.headerShrink);
+      } else {
+        setHeaderClass(classes.header);
+      }
+    };
+
+    // Attach the event listener when the component mounts
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const toggleHandler = () => {
     setIsToggle(!isToggle);
@@ -40,7 +66,7 @@ function MainNavigation() {
   );
 
   return (
-    <header className={`${classes.header}  ${classes.container}`}>
+    <header className={`${classes.headerBox} ${headerClass}  ${classes.container} `}>
       <div className={classes.logo}>
         <Link href="/">
           <Image src={`/images/logo.png`} alt="logo" width={100} height={52} />
