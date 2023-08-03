@@ -1,30 +1,91 @@
 [
   {
-    "id": 1,
+    "id": 30,
     "github": "https://github.com/zhipengwu90/Hands_On_app",
     "demo": "",
-    "filter": ["react", "react native"],
-    "img": "/images/works/hands_on.png"
+    "filter": ["all", "react", "react native", "javascript"],
+    "img": "/images/works/hands_on.png",
+    "name": "Hands On",
+    "desc": "The mobile application that connects busy people with reliable helpers in their local area. The app is built with React Native and Expo. The backend is built with Node.js, Express.js, and Firebase."
   },
   {
-    "id": 2,
+    "id": 40,
     "github": "https://github.com/zhipengwu90/Chatbot",
     "demo": "https://www.wuapp.app/",
-    "filter": ["react", "react native", "nextjs"],
-    "img": "/images/works/chatbot.png"
+    "filter": [
+      "all",
+      "react",
+      "react native",
+      "next.js",
+      "openAI",
+      "javascript",
+      "typescript"
+    ],
+    "img": "/images/works/chatbot.png",
+    "name": "Chatbot",
+    "desc": "This web application allows the user to switch between the OpenAI models of GPT-3.5 Turbo and GPT-4. Employed cutting-edge technologies, including React, Next.js, and the powerful OpenAI API, to deliver a seamless and intuitive platform. "
   },
   {
-    "id": 3,
+    "id": 50,
     "github": "https://github.com/zhipengwu90/VFriend",
     "demo": "",
-    "filter": ["react", "react native"],
-    "img": "/images/works/VFriend.png"
+    "filter": ["all", "react", "react native", "openAI", "javascript"],
+    "img": "/images/works/VFriend.png",
+    "name": "VFriend",
+    "desc": "This mobile application enabling users to create and interact with virtual characters. The app is built with React Native and Expo, and integrated with the OpenAI API."
   },
   {
-    "id": 4,
+    "id": 51,
+    "github": "https://github.com/zhipengwu90/wuApp",
+    "demo": "https://www.wuapp.app/",
+    "filter": ["all", "react", "next.js", "javascript"],
+    "img": "/images/works/wu_app.png",
+    "name": "Wu App",
+    "desc": "This web application is built with React and Next.js. It is a platform for me to showcase my projects and skills."
+  },
+  {
+    "id": 60,
     "github": "https://github.com/zhipengwu90/FeverScanner",
     "demo": "",
-    "filter": ["python"],
-    "img": "/images/works/feverScanner.png"
+    "filter": ["all", "python"],
+    "img": "/images/works/feverScanner.png",
+    "name": "Fever Scanner",
+    "desc": "This project is using raspeberry pi and thermal imaging camera to create a fever scanner to monitor the users' body temperature  The users will scan their NFC tags to identify their IDs, then trigger the thermal imaging camera to start taking the body temperature. "
+  },
+  {
+    "id": 70,
+    "github": "https://github.com/zhipengwu90/zhipengwu90.github.io/tree/main/ITAS191",
+    "demo": "https://zhipengwu90.github.io/ITAS191/index.html",
+    "filter": ["all", "html", "css", "javascript"],
+    "img": "/images/works/dream_house.png",
+    "name": "Dream House",
+    "desc": "This project is a website for a real estate company. It is built with HTML, CSS, and JavaScript. The website is responsive and mobile-friendly."
+  },
+  {
+    "id": 71,
+    "github": "https://github.com/zhipengwu90/zhipengwu90.github.io",
+    "demo": "https://zhipengwu90.github.io/index.html",
+    "filter": ["all", "html", "css", "javascript"],
+    "img": "/images/works/wu_portfolio.png",
+    "name": "Wu's Portfolio",
+    "desc": "This project is my portfolio website. It is built with HTML, CSS, and JavaScript. The website is responsive and mobile-friendly."
+  },
+  {
+    "id": 80,
+    "github": "https://github.com/zhipengwu90/zhipengwu90.github.io/tree/main/ITAS192_Final_Project",
+    "demo": "https://zhipengwu90.github.io/ITAS192_Final_Project/",
+    "filter": ["all", "html", "css", "javascript"],
+    "img": "/images/works/API_world.png",
+    "name": "API World",
+    "desc": "This project is using basic and moderately advanced JavaScript (react), testing (Cypress unit test and E2E test). This is a small web application that uses different APIs to fetch the data. "
+  },
+  {
+    "id": 90,
+    "github": "https://github.com/zhipengwu90/zhipengwu90.github.io/tree/main/ITAS192_Rabbit_Lab",
+    "demo": "https://zhipengwu90.github.io/ITAS192_Rabbit_Lab/",
+    "filter": ["all", "html", "css", "javascript"],
+    "img": "/images/works/rabbit_lab.png",
+    "name": "Rabbit Race",
+    "desc": "This is Rabbit Olympic Racing. This web application used the  JS class function, Callbacks, and JS Document Object Model (DOM). This web application only used Vanilla JS. "
   }
 ]

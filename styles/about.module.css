@@ -1,11 +1,91 @@
 .box {
   color: #ffffff;
-  font-size: 1.2em;
-  padding-top: 150px;
   height: 100vh;
-  margin: auto;
+  padding-top: 150px;
+  padding-left: 12px;
+  padding-right: 12px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+}
+.title {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.myCard {
+  display: block;
+  margin-bottom: 30px;
+  border-radius: 10px;
+
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  animation: changeColorBack 2s ease forwards;
+}
+@keyframes changeColorBack {
+  from {
+    background-color: rgba(48, 71, 112, 0.75);
+  }
+  to {
+    background-color: rgba(17, 25, 40, 0.75);
+  }
+}
+@keyframes changeColor {
+  from {
+    background-color: rgba(17, 25, 40, 0.75);
+  }
+  to {
+    background-color:  rgba(48, 71, 112, 0.75);
+  }
+}
+
+.myCard:hover {
+  animation: changeColor 2s ease forwards; /* 在鼠标悬停时应用动画 */
+}
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+  height: 100%;
+}
+.cardText {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardSentence{
+  color: #ffffff80;
+  font-size: 0.93em;
+  border-top: #ffffff5c 1px solid;
+  padding: 30px 12px;
+}
+
+.cardButton{
+  margin: 20px;
+}
+.cardButton a{
+  margin: 5px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.aboutText {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+/* For screens smaller than 600px, display a single column */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: block;
+  }
 }
