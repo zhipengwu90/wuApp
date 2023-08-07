@@ -1,10 +1,15 @@
 import classes from "../styles/about.module.css";
 import Image from "next/image";
+import Head from "next/head";
 import github from "../public/images/github.svg";
 import linkedin from "../public/images/linkedin.svg";
 function About(props) {
   return (
     <div className="container">
+      <Head>
+        <title>About Wu</title>
+        <meta name="description" content="About page" />
+      </Head>
       <div className={classes.box}>
         <div className={classes.title}>
           <h1>About Me</h1>
