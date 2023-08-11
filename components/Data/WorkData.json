@@ -71,6 +71,15 @@
     "desc": "This project is my portfolio website. It is built with HTML, CSS, and JavaScript. The website is responsive and mobile-friendly."
   },
   {
+    "id": 72,
+    "demo": "https://wuapp.itas268.store/",
+    "filter": ["all", "html", "css", "wordpress"],
+    "img": "/images/works/canada_market.png",
+    "name": "Canada Market",
+    "desc": "This project is a website for house hunting, tt is built with WordPress. The website is responsive and mobile-friendly."
+
+  },
+  {
     "id": 80,
     "github": "https://github.com/zhipengwu90/zhipengwu90.github.io/tree/main/ITAS192_Final_Project",
     "demo": "https://zhipengwu90.github.io/ITAS192_Final_Project/",

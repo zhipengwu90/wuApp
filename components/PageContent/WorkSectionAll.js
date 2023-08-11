@@ -22,6 +22,7 @@ const WorkSectionAll = () => {
           <option value="python">Python</option>    <option value="openAI">OpenAI</option>
           <option value="javascript">Javascript</option>
           <option value="typescript">Typescript</option>
+          <option value="wordpress">Wordpress</option>
 
         </select>
       </div>
