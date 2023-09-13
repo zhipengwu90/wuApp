@@ -32,7 +32,7 @@ function About(props) {
                 height={100}
               />
               <div className={classes.cardText}>
-                <h4>ZHPENG WU</h4>
+                <h4>ZHIPENG WU</h4>
                 <div className={classes.cardButton}>
                   <a href="https://github.com/zhipengwu90">
                     <Image src={github} alt="github" width={35} height={35} />
